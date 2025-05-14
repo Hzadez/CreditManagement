@@ -1,0 +1,108 @@
+﻿<!-- Sidebar -->
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+	<!-- Sidebar - Brand -->
+	<a asp-controller="Home" asp-action="Index" class="sidebar-brand d-flex align-items-center justify-content-center">
+		<div class="sidebar-brand-icon rotate-n-15">
+			<i class="fas fa-laugh-wink"></i>
+		</div>
+		<div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+	</a>
+
+	<!-- Divider -->
+	<hr class="sidebar-divider my-0">
+
+	<!-- Nav Item - Dashboard -->
+	<li class="nav-item active">
+		<a class="nav-link" asp-controller="Home" asp-action="Index">
+			<i class="fas fa-fw fa-tachometer-alt"></i>
+			<span>Dashboard</span>
+		</a>
+	</li>
+
+	<!-- Divider -->
+	<hr class="sidebar-divider">
+
+	<!-- Heading -->
+	<div class="sidebar-heading">
+		All Entity
+	</div>
+
+
+
+	<!-- Book Menu -->
+	<li class="nav-item">
+		<a class="nav-link collapsed" asp-area="Admin" asp-controller="Product" asp-action="Index" data-toggle="collapse" data-target="#collapseBook"
+		   aria-expanded="true" aria-controls="collapseBook">
+			<i class="fas fa-book"></i>
+			<span>Product</span>
+		</a>
+
+
+	</li>
+
+	<!-- Author Menu -->
+	<li class="nav-item">
+		<a asp-area="Admin" asp-action="Index" asp-controller="Branch"  class="nav-link collapsed"  data-toggle="collapse" data-target="#collapseAuthor"
+		   aria-expanded="true" aria-controls="collapseAuthor">
+			<i class="fas fa-pen-nib"></i>
+			<span>Branch</span>
+		</a>
+	</li>
+
+	<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePublisher"
+		   aria-expanded="true" aria-controls="collapsePublisher">
+			<i class="fas fa-building"></i>
+			<span>Publisher</span>
+		</a>
+		<div id="collapsePublisher" class="collapse" aria-labelledby="headingPublisher"
+			 data-parent="#accordionSidebar">
+			<div class="bg-white py-2 collapse-inner rounded">
+				<h6 class="collapse-header">Publisher:</h6>
+				<a asp-controller="Publisher" asp-action="Create" class="collapse-item">Create</a>
+				<a asp-controller="Publisher" asp-action="Index" class="collapse-item">List</a>
+
+			</div>
+		</div>
+	</li>
+
+	<li class="nav-item">
+		<a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseBook"
+		   aria-expanded="true" aria-controls="collapseBook">
+			<i class="fas fa-book"></i>
+			<span>Book</span>
+		</a>
+		<div id="collapseBook" class="collapse" aria-labelledby="headingBook"
+			 data-parent="#accordionSidebar">
+			<div class="bg-white py-2 collapse-inner rounded">
+				<h6 class="collapse-header">Book:</h6>
+				<a asp-area="Admin" asp-controller="Product" asp-action="Index" class="collapse-item">List</a>
+				<a asp-controller="Book" asp-action="Index" class="collapse-item">List</a>
+
+			</div>
+		</div>
+	</li>
+
+
+
+
+
+
+
+	<!-- Divider -->
+	<hr class="sidebar-divider d-none d-md-block">
+
+	<!-- Sidebar Toggler (Sidebar) -->
+	<div class="text-center d-none d-md-inline">
+		<button class="rounded-circle border-0" id="sidebarToggle"></button>
+	</div>
+
+	<!-- Sidebar Message -->
+	<div class="sidebar-card d-none d-lg-flex">
+		<img class="sidebar-card-illustration mb-2" src="img/undraw_rocket.svg" alt="...">
+		<p class="text-center mb-2"><strong>SB Admin Pro</strong> is packed with premium features, components, and more!</p>
+		<a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Upgrade to Pro!</a>
+	</div>
+
+</ul>
