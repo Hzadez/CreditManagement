@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CreditControls")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70a0fc5acf1cb7355a584051feced9ca245d5b48")]
 [assembly: System.Reflection.AssemblyProductAttribute("CreditControls")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CreditControls")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,2 +1,0 @@
-C:\Users\user\source\repos\CreditControls\CreditControls\wwwroot\css\site.css
-C:\Users\user\source\repos\CreditControls\CreditControls\wwwroot\js\site.js
